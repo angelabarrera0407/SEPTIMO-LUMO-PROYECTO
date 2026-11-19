@@ -25,3 +25,7 @@ html, body {
 	margin: 0;
 	overflow: hidden
 }
+.prev,
+.next {
+    display: none !important;
+}
