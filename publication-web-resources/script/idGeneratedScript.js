@@ -289,6 +289,9 @@ myMedia.pause();
 async function goToDestination(ref) {
 window.location.href = ref;
 }
+function openExternalDestination(ref) {
+    window.open(ref, "_blank", "noopener,noreferrer");
+}
 function handleMediaInMSOState(element) {
 /*This function is used to stop playing media present in current state when we move from current state to another state.*/
 var descendants = element.getElementsByTagName('*');
